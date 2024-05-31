@@ -1,0 +1,55 @@
+.input {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.label {
+    font-size: 1.3rem;
+    font-weight: 600;
+    background: #ffffff;
+}
+
+.modelTitle {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.datetimeInput {
+    width: 96%;
+    height: 3rem;
+    margin: 1rem 0;
+    padding: 1rem;
+}
+
+.datetimeLabel {
+    font-size: 1.2rem;
+}
+
+.actions {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    margin: 1rem 0 0;
+}
+
+.button {
+    font-size: 1.2rem;
+    background: #000000;
+    border-radius: 1rem;
+    width: 100%;
+    max-width: 20rem;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+        background: linear-gradient(
+            to left,
+            #4285f4,
+            #34a853,
+            #fbbc05,
+            #ea4335
+        );
+    }
+}

@@ -1,0 +1,65 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+.heading {
+    font-size: 2.2rem;
+}
+
+.logoutbutton {
+    font-size: 1.4rem;
+    font-weight: 600;
+    background: #000000;
+    border-radius: 1rem;
+    width: 100%;
+    max-width: 12rem;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+        background: linear-gradient(
+            to left,
+            #4285f4,
+            #34a853,
+            #fbbc05,
+            #ea4335
+        );
+    }
+}
+
+.userName {
+    font-size: 2rem;
+}
+
+.eventAction {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 1rem 0 2rem;
+}
+
+.eventbutton {
+    font-size: 1.4rem;
+    font-weight: 600;
+    background: #000000;
+    border-radius: 1rem;
+    width: 100%;
+    max-width: 25rem;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+        background: linear-gradient(
+            to left,
+            #4285f4,
+            #34a853,
+            #fbbc05,
+            #ea4335
+        );
+    }
+}
